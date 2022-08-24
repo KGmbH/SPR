@@ -4,8 +4,8 @@
 const trial_info = {
     tryout: [// trial items - dienen nur der Übung
 	{
-	 sentence: "Die | Antworten | des | Jungen | überraschen | die | Erzieherin | im | Kindergarten.",
-	 	question: "Was überrascht die Erzieherin?",
+	 sentence: "Die | Antworten | des | Jungen | überraschten | die | Erzieherin | im | Kindergarten.",
+	 	question: "Was überraschte die Erzieherin?",
         option1: "Die Antworten",
         option2: "Die Behauptungen",
         correct_answer: "Die Antworten",
@@ -16,8 +16,8 @@ const trial_info = {
         underline: 'none'
     },
 	{
-	 sentence: "Der | Hund | der | Frauen | bellt | im | Park | sehr | laut.",
-	    question: "Wie bellt der Hund?",
+	 sentence: "Der | Hund | der | Frauen | bellte | im | Park | sehr | laut.",
+	    question: "Wie bellte der Hund?",
         option1: "häufig",
         option2: "laut",
         correct_answer: "laut",
@@ -30,55 +30,55 @@ const trial_info = {
 	    ],
     spr: [{
 // Item 1-8 von 15
-	 sentence: " Die | Mehrheit | der | Schüler | stellt | eine | Frage | im | Unterricht.",
-	 	 question: "Wann werden Fragen gesteltl?",
+	 sentence: " Die | Mehrheit | der | Schüler | stellte | eine | Frage | im | Unterricht.",
+	 	 question: "Wann wurden Fragen gestellt?",
         option1: "im Unterricht",
         option2: "nach dem Unterricht",
         correct_answer: "im Unterricht",
-	itemname: "GS1",
+	itemname: "L1_GS",
         participant_group: coin,
         participant_id: participantID,
         wordPos: 'same',
         underline: 'none'
     },
     	{
-	 sentence: "Die | Mehrzahl | der | Studenten | haben | ein | Problem | in der | Prüfung.",
+	 sentence: "Die | Mehrzahl | der | Studenten | hatten | ein | Problem | in der | Prüfung.",
 	    question: "Wie ist die Prüfung?",
         option1: "schwer",
         option2: "leicht",
         correct_answer: "schwer",
-	itemname: "KS1",
+	itemname: "L1_KS",
         participant_group: coin,
         participant_id: participantID,
         wordPos: 'same',
         underline: 'none'
     },
         {
-	 sentence: "Der | Hauptanteil | der | Kinder | trinkt | einen | Eistee | in der | Pause.",
-	    question: "Was wird getrunken?",
+	 sentence: "Der | Hauptanteil | der | Kinder | kaufte | einen | Eistee | in der | Pause.",
+	    question: "Was wurde gekauft?",
         option1: "Früchtetee",
         option2: "Eistee",
         correct_answer: "Eistee",
-	itemname: "GNS1",
+	itemname: "L1_GNS",
         participant_group: coin,
         participant_id: participantID,
         wordPos: 'same',
         underline: 'none'
     },
         {
-	 sentence: "Das | Gros | der | Politiker | machen  | einen | Urlaub | im | Sommer.",
-	    question: "Wann wird Urlaub gemacht?",
+	 sentence: "Das | Gros | der | Politiker | machten  | einen | Urlaub | im | Sommer.",
+	    question: "Wann wurde Urlaub gemacht?",
         option1: "Im Sommer",
         option2: "In den Ferien",
         correct_answer: "Im Sommer",
-	itemname: "KNS1",
+	itemname: "L1_KNS",
         participant_group: coin,
         participant_id: participantID,
         wordPos: 'same',
         underline: 'none'
     },
          {
-	 sentence: "Die | Häuser | der | Männer | stehen  | in der | Dorfmitte | beim | Rathaus.",
+	 sentence: "Die | Häuser | der | Männer | standen  | in der | Dorfmitte | beim | Rathaus.",
 	    question: "Wo steht das Rathaus?",
         option1: "In der Dorfmitte",
         option2: "Beim Einkaufszentrum",
@@ -90,8 +90,8 @@ const trial_info = {
         underline: 'none'
     },
          {
-	 sentence: "Die | Blätter | des | Baums | fallen  | im | Herbst | auf den | Boden.",
-	    question: "Wo fallen die Blätter hin?",
+	 sentence: "Die | Blätter | des | Baums | fielen  | im | Herbst | auf den | Boden.",
+	    question: "Wo fielen die Blätter hin?",
         option1: "Auf den Boden",
         option2: "Auf die Straße",
         correct_answer: "Auf den Boden",
@@ -102,8 +102,8 @@ const trial_info = {
         underline: 'none'
     },
           {
-	 sentence: "Die | Schlüssel | des | Jugendlichen | stürzen | in | einen | See | hinein.",
-	    question: "Wohin fallen die Schlüssel?",
+	 sentence: "Die | Schlüssel | des | Jugendlichen | stürzten | in | einen | See | hinein.",
+	    question: "Wohin stürtzten die Schlüssel?",
         option1: "Ins Meer",
         option2: "In einen See",
         correct_answer: "In einen See",
@@ -114,8 +114,8 @@ const trial_info = {
         underline: 'none'
     },
         {
-	 sentence: "Die | Motivation | der | Arbeiter | sinkt | mit | jedem | Tag | weiter.",
-	    question: "Wie ist die Motivation?",
+	 sentence: "Die | Motivation | der | Arbeiter | sank | mit | jedem | Tag | weiter.",
+	    question: "Wie war die Motivation?",
         option1: "Steigend",
         option2: "Sinkend",
         correct_answer: "Sinkend",
@@ -126,7 +126,7 @@ const trial_info = {
         underline: 'none'
     },
          {
-	 sentence: "Die | Beschwerden | der | Bewohner | stören | eine | Mitarbeiterin | jedes | Wochenende.",
+	 sentence: "Die | Beschwerden | der | Bewohner | nervten | eine | Mitarbeiterin | jedes | Wochenende.",
 	    question: "Welches Geschlecht hat der Mitarbeiter?",
         option1: "Männlich",
         option2: "Weiblich",
@@ -138,7 +138,7 @@ const trial_info = {
         underline: 'none'
     },
           {
-	 sentence: "Der | Blick | der | Verkäuferin | verfolgt | einen | Kunden | im | Schuhladen.",
+	 sentence: "Der | Blick | der | Verkäuferin | verfolgte | einen | Kunden | im | Schuhladen.",
 	    question: "Was für ein Laden?",
         option1: "Kleidungsladen",
         option2: "Schuhladen",
@@ -150,8 +150,8 @@ const trial_info = {
         underline: 'none'
     },
          {
-	 sentence: "Der | Lärm | der | Baustelle | stört | eine | Präsentation | im | Betrieb.",
-	    question: "Woher kommt der Lärm?",
+	 sentence: "Der | Lärm | der | Baustelle | störte | eine | Präsentation | im | Betrieb.",
+	    question: "Woher kam der Lärm?",
         option1: "Vom Verkehr",
         option2: "Von der Baustelle",
         correct_answer: "Von der Baustelle",
@@ -162,8 +162,8 @@ const trial_info = {
         underline: 'none'
     },
          {
-	 sentence: "Die | Ansichten | der | Priester | besorgen | eine | Familie | im | Dorf.",
-	    question: "Wer besorgt die Familie?",
+	 sentence: "Die | Ansichten | der | Priester | besorgten | eine | Familie | im | Dorf.",
+	    question: "Wer besorgte die Familie?",
         option1: "Die Priester",
         option2: "Die Demonstranten",
         correct_answer: "Die Priester",
@@ -173,6 +173,31 @@ const trial_info = {
         wordPos: 'same',
         underline: 'none'
     },
+     {
+	 sentence: " Die | Mehrheit | der | Schüler | stellten | eine | Frage | im | Unterricht.",
+	 	 question: "Wann wurden Fragen gestellt?",
+        option1: "im Unterricht",
+        option2: "nach dem Unterricht",
+        correct_answer: "im Unterricht",
+	itemname: "L2_GS2",
+        participant_group: coin,
+        participant_id: participantID,
+        wordPos: 'same',
+        underline: 'none'
+    },
+        {
+	 sentence: "Die | Mehrzahl | der | Studenten | hatten | ein | Problem | in der | Prüfung.",
+	    question: "Wie ist die Prüfung?",
+        option1: "schwer",
+        option2: "leicht",
+        correct_answer: "schwer",
+	itemname: "L1_KS1",
+        participant_group: coin,
+        participant_id: participantID,
+        wordPos: 'same',
+        underline: 'none'
+    },
+
 	]
 };
 

@@ -26,7 +26,7 @@ $(window).on("load", function() {
         // Here, you can specify all information for the deployment
         deploy: {
             experimentID: "konz-syn",
-            serverAppURL: "https://konz-syn.herokuapp.com/",
+            serverAppURL: "",
             // Possible deployment methods are:
             // "debug" and "directLink"
             // As well as "MTurk", "MTurkSandbox" and "Prolific"

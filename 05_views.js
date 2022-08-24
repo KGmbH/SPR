@@ -26,11 +26,7 @@ const intro = magpieViews.view_generator("intro", {
   text: `Vielen Dank für Deine Teilnahme an diesem online-Leseexperiment. 
             <br />
             <br />
-            Die Teilnahme am Experiment ist freiwillig. Du kannst die Teilnahme jederzeit abbrechen, ohne negative Konsequenzen zu erwarten. 
-            <br />
-            <br />
-            Deine Antworten aus diesem Experiment werden ausschließlich zu wissenschaftlichen Zwecken aufgezeichnet und ausgewertet. Die Daten werden anonym gespeichert und können an andere Wissenschaftler*innen weitergegeben werden.
-            <br />
+            Deine Antworten aus diesem Experiment werden ausschließlich zu wissenschaftlichen Zwecken aufgezeichnet und ausgewertet. Die Daten werden anonym gespeichert.            <br />
             <br />Durch Deine Teilnahme bestätigst Du, dass Du mit diesen Teilnahmebedingungen einverstanden bist.<br />
 `,
     buttonText: 'Experiment beginnen',
@@ -43,7 +39,7 @@ const instructions = magpieViews.view_generator("instructions", {
   name: 'instructions',
   title: 'Aufgabenstellung',
   text: `Dieses Experiment besteht aus 14 Sätzen, gefolgt von je einer Verständnisfrage. Deine Aufgabe ist es, die Sätze zu lesen und die dazugehörige Frage zu beantworten. <br><br>Die Sätze werden nicht auf einmal eingeblendet, sondern Du kannst die Wörter einzeln mit der Leertaste anzeigen lassen. Du kannst im Satz nicht mehr zurück gehen. <br><br>
-         Bitte lies Dir die Sätze aufmerksam aber in Ihrer gewohnten Geschwindigkeit durch und beantworte die Fragen aufgrund Deines intuitiven Verständnisses der Situation.<br><br>
+         Bitte lies Dir die Sätze aufmerksam aber in Deiner gewohnten Geschwindigkeit durch und beantworte die Fragen aufgrund Deines intuitiven Verständnisses der Situation.<br><br>
 Bitte beachte, dass Sie das Experiment auf einem Computer mit Tastatur (nicht auf einem mobilen Gerät) durchführen sollten.<br>
 `,
   buttonText: 'Start'
